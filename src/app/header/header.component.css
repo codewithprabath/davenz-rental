@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 20px;
+  }
+  
+  .nav h1 {
+    font-size: 40px;
+    color: #738142;
+    margin: 0;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    position: relative;
+    padding: 15px;
+  }
+  
+  .menu li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hide dropdown by default */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fcf4ec;
+    top: 100%;
+    left: 0;
+    min-width: 120px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 100;
+  }
+  
+  /* Show on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  

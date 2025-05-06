@@ -1,0 +1,20 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+    /*background-color: rgb(0, 255, 81);*/
+}
+* {
+    user-select: none;
+    cursor: default;
+  }
+  
+  input, textarea, select {
+    user-select: text;
+    cursor: text;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
